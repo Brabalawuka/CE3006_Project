@@ -1,3 +1,7 @@
+%---------------------------------------------------------------------
+%Preparation Code
+%---------------------------------------------------------------------
+
 % Generate random binary digits (0 or 1)for 1024 bits
 numberOfBits = 1024;
 randomInputBits = randi([0, 1], [numberOfBits, 1]);
@@ -7,6 +11,9 @@ randomInputBits(randomInputBits == 0) = -1;
 % Assume signal (the input data) has unit power. That is, S=1
 signalVariance = 1;
 
+%---------------------------------------------------------------------
+%Testing Code
+%---------------------------------------------------------------------
 
 %Create Output Results Array
 bitErrorRateOutput = zeros(1,11); %Y axis
@@ -36,6 +43,9 @@ xlabel('E_{b}/N_{0}') ;
 ylabel('P_{e}') ;
 
 
+%---------------------------------------------------------------------
+%Function Code
+%---------------------------------------------------------------------
 
 
 
