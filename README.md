@@ -6,4 +6,8 @@ Phase 1 : Data generation
 
 Phase 2 : BandPassModulation Using OOK and BPSK  
 ```Phase2.m``` is used for Phase 2 : BandPassModulation Using OOK and BPSK.  
-Run ```Phase2.m``` to generate average bit error rate for the OOK and BPSK comparasion
+Run ```Phase2_OOKPlot.m``` to generate more data plots for the OOK sampling method.   
+Run ```Phase2_BPSKPlot.m``` to generate more data plots for the BPSK sampling method.  
+
+
+
