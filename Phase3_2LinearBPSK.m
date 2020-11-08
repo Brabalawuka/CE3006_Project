@@ -127,7 +127,7 @@ hold on
 ylabel('Log 10 Bit Error Rate') ;
 hold on
 title("Bit Error Rate vs SNR for BPSK with and without Linear coding");
-legend({'y = AverageBPSK','y= AverageBPSK'},'Location','southeast')
+legend({'y = AverageBPSK','y= AverageBPSKLinear'},'Location','southeast')
 xlabel('E_{b}/N_{0}') ;
 ylabel('P_{e}') ;
 
