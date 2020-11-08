@@ -9,12 +9,8 @@ Phase 2 : BandPassModulation Using OOK and BPSK
 Run ```Phase2_OOKPlot.m``` to generate more data plots for the OOK sampling method.   
 Run ```Phase2_BPSKPlot.m``` to generate more data plots for the BPSK sampling method.  
 
-Phase 2 : BandPassModulation Using OOK and BPSK  
-```Phase2.m``` is used for Phase 2 : BandPassModulation Using OOK and BPSK.  
-Run ```Phase2_OOKPlot.m``` to generate more data plots for the OOK sampling method.   
-Run ```Phase2_BPSKPlot.m``` to generate more data plots for the BPSK sampling method.  
 
-Phase 2 : Basic Error Control Coding Using Hamming, Linear and Cyclical Codes  
+Phase 3 : Basic Error Control Coding Using Hamming, Linear and Cyclical Codes  
 Run ```Phase3_1HammingOOK.m``` to generate plots of performance with and without Hamming code for the OOK sampling method.   
 Run ```Phase3_1HammingBPSK.m``` to generate plots of performance with and without Hamming code for the BPSK sampling method.  
 Run ```Phase3_2LinearOOK.m``` to generate plots of performance with and without linear code for the OOK sampling method.   
